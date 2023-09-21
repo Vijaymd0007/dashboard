@@ -1,0 +1,105 @@
+.Maincards{
+   
+    margin-left:50vh;
+margin-bottom:30px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-right: 40px;;
+}
+
+.card{
+    display: flex;
+    width: 237.32px;
+    height: 120px;
+    flex-direction: column;
+    border:2px solid white;
+
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 0px #0000001A;
+
+    position: relative;
+    padding-top: 18px;
+    padding-left:26px;
+}
+
+.card p{
+    text-wrap: nowrap;
+    color: #000;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.card img{
+    width:31px;
+    height:31px;
+    padding:4px;
+    background-color: #7FCD93;
+}
+
+.card:nth-child(2) img{
+    
+    background-color: #DEBF85;
+}
+.card:nth-child(3) img{
+    
+    background-color: #ECA4A4;
+}
+.card:nth-child(4) img{
+    
+    background-color: #A9B0E5;
+}
+
+.card p:last-child{
+    position: absolute;
+    bottom:20px;
+    right:15px;
+
+    color: var(--supportive-roshi-100, #3CC952);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Figtree;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 160% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-color: #E9F9EB;
+    border-radius:34px ;
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card h2{
+    color: #000;
+font-family: Open Sans;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+@media screen and (max-width:450px) {
+
+    .Maincards{
+   
+        margin-left:10vh;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 40px;;
+    }
+    
+}

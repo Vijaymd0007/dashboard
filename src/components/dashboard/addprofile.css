@@ -1,0 +1,58 @@
+.AddProfileMain{
+    margin-left:50vh;
+    margin-bottom:30px;
+    
+    display: flex;
+    flex-direction: column;
+
+    width: 480px;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border:2px solid white;
+    position: absolute;
+    right:50px;
+    top:69vh;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px 0px #0000001A;
+}
+
+
+.AddProfile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76.784px;
+height: 76.784px;
+flex-shrink: 0;
+background-color: #F5F5F5;
+border-radius: 50%;
+
+}
+
+
+@media screen and (max-width:450px) {
+    .AddProfileMain{
+      
+        
+        
+        display: flex;
+        flex-direction: column;
+    
+        width: 320px;
+        height: 220px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border:2px solid white;
+        position: absolute;
+        right:30px;
+        top:1900px;
+        margin-bottom: 30px !important;;
+        border-radius: 20px;
+        box-shadow: 4px 4px 20px 0px #0000001A;
+    }
+    
+    
+}

@@ -1,0 +1,30 @@
+img{
+    width:30px;
+    height:30px;
+    clip-path: circle();
+}
+
+.logout-prompt{
+    width:500px;
+    height:200px;
+    padding:50px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+    background-color: #3C83F9;
+    z-index: 99;
+}
+
+.logout-prompt p{
+    color: aliceblue;
+    text-align: center;
+
+}
+.logout-prompt button{
+    color: black;
+    margin:10px 25%;
+    text-align: center;
+
+}

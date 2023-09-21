@@ -1,0 +1,117 @@
+/* *{
+    overflow-x: hidden;
+} */
+
+.navbar{
+    margin-left:50vh;
+ margin-top:30px;
+    
+    width:50vh;
+}
+
+.iconsList h3{
+    margin-right:200%;
+}
+
+.iconsList{
+    display: inline-block;
+    gap:20px;
+    display: flex;
+    flex-direction: row;
+    margin-right:20px;
+}
+.iconsList input{
+    color: var(--Light-grey, #B0B0B0);
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border:none;
+outline:none;
+    
+width:100px;
+}
+
+    
+
+.iconsList svg{
+    fill: #000;
+    width: 18px;
+    height: 20.888px;
+    flex-shrink: 0;
+    vertical-align: center;
+    
+}
+
+@media screen and (max-width:1000px) {
+    .iconsList h3{
+        margin-right:10%;
+    }
+    .iconsList{
+        display: inline-block;
+        gap:20px;
+        display: flex;
+        flex-direction: row;
+        margin-right:10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .iconsList h3{
+        margin-right:30%;
+    }
+    .iconsList{
+        display: inline-block;
+        gap:10px;
+        display: flex;
+        flex-direction: row;
+        margin-right:10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .iconsList h3{
+        margin-right:30%;
+    }
+    .iconsList{
+        display: inline-block;
+        gap:5px;
+        display: flex;
+        flex-direction: row;
+        margin-right:10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .navbar{
+
+        position: fixed;
+        top:0px;
+        margin-left:0vh;
+     margin-top:10px;
+     z-index: 99;
+        
+        width:50vh;
+    }
+
+    .iconsList h3{
+        margin-right:50px;
+    }
+
+    .iconsList input{
+        border-radius: 20px;
+        padding-left:10px;
+    width:100px;
+    }
+
+    .iconsList{
+        display: inline-block;
+        gap:8px;
+        display: flex;
+        flex-direction: row;
+        margin-right:20px;
+        vertical-align: center;
+    }
+    
+}

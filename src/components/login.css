@@ -1,0 +1,28 @@
+button {
+    width:197.6px;
+    height:32.93px;
+    font-family:'Montserrat' ;
+    font-weight: 400;
+    font-size:12px;
+    line-height: 14.63px;
+    text-align: center;
+    color: #858585;
+    border: none;
+    outline: none;
+    margin:0px 10px;
+}
+
+button img{
+    width:12.24px;
+    height:11.14px;
+    margin:0px 4px;
+}
+
+
+@media screen and (max-width:450px) {
+
+    .loginButton{
+       
+        margin:0px 80px;
+    }
+}
